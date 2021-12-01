@@ -1,0 +1,40 @@
+.topnav {
+  background-color: #DEE2FF;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #8E9AAF;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.wrapper {
+  /* Make the display flex, flow should be row and wrap, and align the text centered */
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+}
+
+.wrapper > * {
+  /* padding & margin should be 10px all around*/
+  padding: 10px;
+  margin: 10px;
+  /* flex grow will be set to 1 and shrink 100% USE SHORTHAND */
+  flex: 1 100%;
+  /* round the edges of the divs using border radius */
+  border-radius: 30px;
+}
+
+.header{
+  background-color: pink;
+}
+
+.currentprojects{
+  background-color: #FEEAFA;
+}
+
+.pastprojects{
+  background-color: #CBC0D3;
+}
