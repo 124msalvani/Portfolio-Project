@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+h1{
+  font-family: 'Merienda';
+  font-size: 30px;
+}
+h2, h3{
+  font-family: 'Roboto';
+}
+p{
+  font-size: 120%;
+}
+
 .topnav {
   background-color: #E0B1CB;
   overflow: hidden;
@@ -8,6 +22,7 @@
   text-align: center;
   padding: 14px 16px;
   font-size: 17px;
+  font-family: 'Merienda';
 }
 
 .wrapper {
@@ -32,6 +47,12 @@
   background-color: pink;
 }
 
+.letstrythis{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
 .currentprojects{
   background-color: #FEEAFA;
 }
@@ -46,4 +67,16 @@
 
 .moreaboutme{
   background-color: #DEE2FF;
+}
+
+ @media all and (min-width: 700px){
+.letstrythis{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  margin: 10px;
+  }
+  .pictureofme{
+    padding-right: 20px;
+  }
 }
