@@ -55,10 +55,16 @@ p{
 
 .currentprojects{
   background-color: #FEEAFA;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .pastprojects{
   background-color: #CBC0D3;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .contactme{
@@ -69,14 +75,38 @@ p{
   background-color: #DEE2FF;
 }
 
- @media all and (min-width: 700px){
-.letstrythis{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: left;
-  margin: 10px;
-  }
+@media all and (min-width: 700px){
+  .wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin: 10px;
+    padding: 50px;
+    padding-top: 10px;
+    }
+
+    .currentprojects, .pastprojects{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: left;
+    }
+
+    .turkeyproject{
+      padding-right: 20px;
+    }
+
+
+  .letstrythis{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin: 10px;
+    }
   .pictureofme{
     padding-right: 20px;
+  }
+
+  .contactme{
+    padding: 10px;
   }
 }
