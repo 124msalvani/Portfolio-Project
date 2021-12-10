@@ -45,6 +45,7 @@ p{
 
 .header{
   background-color: pink;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .letstrythis{
@@ -58,6 +59,7 @@ p{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .pastprojects{
@@ -65,32 +67,38 @@ p{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .contactme{
   background-color: lavender;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .moreaboutme{
   background-color: #DEE2FF;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .educationbox{
   display: flex;
   flex-flow: column wrap;
   background-color: #FFC8DD;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .pythonbox{
   display: flex;
   flex-flow: column wrap;
   background-color: #CDB4DB;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .webdesignbox{
   display: flex;
   flex-flow: column wrap;
   background-color: #5E548E;
+  box-shadow: 10px 10px 5px grey;
 }
 
 @media all and (min-width: 700px){
