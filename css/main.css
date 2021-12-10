@@ -75,6 +75,24 @@ p{
   background-color: #DEE2FF;
 }
 
+.educationbox{
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #FFC8DD;
+}
+
+.pythonbox{
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #CDB4DB;
+}
+
+.webdesignbox{
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #5E548E;
+}
+
 @media all and (min-width: 700px){
   .wrapper{
     display: flex;
